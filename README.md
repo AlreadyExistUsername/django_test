@@ -1,7 +1,7 @@
 # django_test
 
 ### Требуется:
-Django==1.11.2
+Django
 
 ### БД используется:
 postgresql
