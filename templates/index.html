@@ -7,7 +7,7 @@
     {% block content %}
 
     {% for story in stories %}
-        <p>{{ story.body }}</p>
+        <p style="color: red;">{{ story.body }}</p>
     {% endfor %}
     {% endblock %}
     <form action="{% url 'main' %}" method="post">
